@@ -131,7 +131,8 @@ const square = power(2)
 square(4) == power(2, 4) // true
 ```
 ---
+### Homework #1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTE1NzYyMV19
+eyJoaXN0b3J5IjpbLTEyMDQ1NDA1NjQsMTkwMTE1NzYyMV19
 -->
