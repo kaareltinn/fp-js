@@ -16,12 +16,12 @@ for (let i in list1) {
 console.log(result) // 
 ```
 ___
-Task 2: Find "largest" negative number in a list
+Task 2: Turn every negative number to its positive counter part
 
 ```javascript
 const list2 = [56, -122, 12, -5, 212, 34, -25]
 
-let maxNeg = Infinity;
+let posResult = []
 for (let i in list2) {
 	if (list2[i] < 0 && list2[i] <= maxNeg) {
 		maxNeg = list2[i]
@@ -71,7 +71,7 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA0NTE2NzQsMjA0ODg5ODIxNSwxOD
+eyJoaXN0b3J5IjpbLTE3ODMxOTIwODAsMjA0ODg5ODIxNSwxOD
 IyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAz
 MTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLT
 UzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
