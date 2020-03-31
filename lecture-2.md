@@ -32,8 +32,10 @@ for (let i in list2) {
 console.log(maxNeg) // -122
 ```
 ---
+Generalization: find similarities and hide them behind the abstraction
 
-First rule of on
+```javascript
+
 ---
 Functional programming is all about composing small functions into bigger ones.
 
@@ -62,8 +64,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTI2MjY0LC05NTA0MTI5OTcsLTE2MD
-I3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAx
-LDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOSwtMT
-kyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbMTA5NjQ4ODc1OSwtOTUwNDEyOTk3LC0xNj
+AyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAw
+MSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLT
+E5Mjg0NDU5NDhdfQ==
 -->
