@@ -83,6 +83,7 @@ Basically taking two or more functions, smashing them together to get back a new
 Notes: For example, imperative code (e.g for-loops, very hard to compose)
 
 ---
+### Detour to a scary math-land
 
 Having two functions
 `f: A --> B`
@@ -94,18 +95,21 @@ This function can be defined as composition of `f` and `g`:
 `f . g = x => f(g(x)``
 
 ---
-In JS world:
+Let's try in practice.
 
 ```javascript
-const compose = (f, g) => x => f(g(x))
+const wrapString = (x) => [+x] // String -> [Number]
+const head = (arr) => arr[0] // [Number] -> Number
+
+Notes: +'12' === parseFloat('12')
 ```
 
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjc5MTczMywtMjA3MzIyNjk3Niw5OD
-AyODA4NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4MjI2NjA4
-MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMxMCwtOT
-IwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNTMxMDc0
-ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX0=
+eyJoaXN0b3J5IjpbNTY5NzUsLTIwNzMyMjY5NzYsOTgwMjgwOD
+c0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05
+NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5Nz
+AwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywt
+MTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
 -->
