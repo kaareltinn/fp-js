@@ -5,17 +5,15 @@
 
 #### :TODO:
 ---
-Task 1: Multiply numbe in a list by itself
+Task 1: Multiply number in a list by itself
 ```javascript
 const list1 = [56, -122, 12, -5, 212, 34, -25]
 
-let max = -Infinity;
+let result = []
 for (let i in list1) {
-	if (list1[i] >= max) {
-		max = list1[i]
-	}
+	result[i] = list1[i] * list[1]
 }
-console.log(max) // 
+console.log(result) // 
 ```
 ___
 Task 2: Find "largest" negative number in a list
@@ -73,8 +71,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU3MjEyMDQsMjA0ODg5ODIxNSwxOD
-IyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAz
-MTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLT
-UzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbNDcyNDk3Mzc4LDIwNDg4OTgyMTUsMTgyMj
+Y2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsODY5NjQwMzEw
+LC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2LC01Mz
+EwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ==
 -->
