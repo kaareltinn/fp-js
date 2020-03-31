@@ -5,13 +5,13 @@
 
 #### :TODO:
 ---
-Task 1: Multiply number in a list by itself
+Task 1: For every number in a list increase it by its own value
 ```javascript
 const list1 = [56, -122, 12, -5, 212, 34, -25]
 
 let result = []
 for (let i in list1) {
-	result[i] = list1[i] * list[1]
+	result[i] = list1[i] + list[i]
 }
 console.log(result) // 
 ```
@@ -71,8 +71,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNDk3Mzc4LDIwNDg4OTgyMTUsMTgyMj
-Y2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsODY5NjQwMzEw
-LC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2LC01Mz
-EwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ==
+eyJoaXN0b3J5IjpbLTEzODA0NTE2NzQsMjA0ODg5ODIxNSwxOD
+IyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAz
+MTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLT
+UzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
 -->
