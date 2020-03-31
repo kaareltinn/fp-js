@@ -10,11 +10,10 @@ Having two functions
 
 Then there must exist function `h: A --> C`
 
-This function can be defined as composition of f and g
-
+This function can be defined as composition of `f` and `g`
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1OTQ2ODAyLC0xNTUyNTc4MzE5LC0xOT
-I4NDQ1OTQ4XX0=
+eyJoaXN0b3J5IjpbLTIwNDkyNjk5NzgsLTE1NTI1NzgzMTksLT
+E5Mjg0NDU5NDhdfQ==
 -->
