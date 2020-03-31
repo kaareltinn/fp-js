@@ -59,6 +59,7 @@ const map => (list, fn) => list.map(fn)
 const double => (x) => x * 2
 const abs = x = x < 0 ? x * -1 : x
 
+list
 ```
 This helps to generalize code even more so making more useful in other scenarios.
 
@@ -90,9 +91,9 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMj
-U4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5
-OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMD
-gyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3
-ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbLTExODY4MTYzNjgsLTIwNzMyMjY5NzYsOT
+gwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYw
+ODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLT
+kyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3
+NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
 -->
