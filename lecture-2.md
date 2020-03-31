@@ -17,21 +17,21 @@ for (let i in list1) {
 		max = list1[i]
 	}
 }
-console.log(max)
+console.log(max) // 
 ```
 ___
-Task 2: Find largest negative number in a list
+Task 2: Find "largest" negative number in a list
 
 ```javascript
 const list2 = [56, -122, 12, -5, 212, 34, -25]
 
-let maxNeg = -Infinity;
-for (let i in list1) {
-	if (list2[i] < 0 && list2[i] >= maxNeg) {
+let maxNeg = Infinity;
+for (let i in list2) {
+	if (list2[i] < 0 && list2[i] <= maxNeg) {
 		maxNeg = list2[i]
 	}
 }
-console.log(maxNeg)
+console.log(maxNeg) // -122
 ```
 ---
 Functional programming is all about composing small functions into bigger ones.
@@ -61,8 +61,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OT
-Y0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjcz
-NiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX
-0=
+eyJoaXN0b3J5IjpbLTExMjU3NDM5MDMsLTk1MDQxMjk5NywtMT
+YwMjcxOTM4LDg2OTY0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkw
+MDEsMTAxMTkzNjczNiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC
+0xOTI4NDQ1OTQ4XX0=
 -->
