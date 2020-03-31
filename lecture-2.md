@@ -31,6 +31,7 @@ for (let i in list1) {
 		maxNeg = list2[i]
 	}
 }
+console.log(maxNeg)
 ```
 ---
 Functional programming is all about composing small functions into bigger ones.
@@ -60,8 +61,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Nzk0MzQzLC0xNjAyNzE5MzgsODY5Nj
-QwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2
-LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ
-==
+eyJoaXN0b3J5IjpbLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OT
+Y0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjcz
+NiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX
+0=
 -->
