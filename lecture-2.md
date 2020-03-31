@@ -11,8 +11,12 @@ const list1 = [56, 12, 212, 25]
 ```javascript
 const list1 = [56, 12, 212, 25]
 
-const findMax = (arr) => (
-
+let max = null;
+for (let i in list1) {
+	if (max && list1[i] >= max) {
+		
+	}
+}
 ```
 ---
 Functional programming is all about composing small functions into bigger ones.
@@ -42,8 +46,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzcwNTI1MSwtMTYwMjcxOTM4LDg2OT
-Y0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjcz
-NiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX
-0=
+eyJoaXN0b3J5IjpbOTk3MjMyMDUwLC0xNjAyNzE5MzgsODY5Nj
+QwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2
+LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ
+==
 -->
