@@ -41,7 +41,7 @@ const iterateOverList = (lst) => {
 ___
 Specialize: using abstraction provide only what is neccessary for an use-case
 ```javascript
-
+const 
 ```
 ---
 Functional programming is all about composing small functions into bigger ones.
@@ -71,7 +71,7 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MjY0MDkxNCwyMDQ4ODk4MjE1LDE4Mj
+eyJoaXN0b3J5IjpbLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4Mj
 I2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMx
 MCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNT
 MxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX0=
