@@ -1,14 +1,18 @@
 
 # Composition
 ---
-### Abstraction
-
-Recoqnizing a common pattern by remocving unneeded detail
+### What is an abstraction?
 
 Task: Find largest number in a list
-
 ```javascript
 const list1 = [56, 12, 212, 25]
+```
+---
+```javascript
+const list1 = [56, 12, 212, 25]
+
+const findMax = (arr) => (
+
 ```
 ---
 Functional programming is all about composing small functions into bigger ones.
@@ -38,7 +42,7 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzk5MTUyNywtMTYwMjcxOTM4LDg2OT
+eyJoaXN0b3J5IjpbLTg5NzcwNTI1MSwtMTYwMjcxOTM4LDg2OT
 Y0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjcz
 NiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX
 0=
