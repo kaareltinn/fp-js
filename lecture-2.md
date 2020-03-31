@@ -1,7 +1,10 @@
 
 # Composition
 ---
+Functional programming is all about composing small functions into bigger ones.
 
+### Why?
+* Helps to reuse
 
 ---
 
@@ -24,7 +27,8 @@ Notice the currying!
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMD
-g5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgz
-NywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbMjc0OTM4NTI1LC0xNjAyNzE5MzgsODY5Nj
+QwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2
+LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ
+==
 -->
