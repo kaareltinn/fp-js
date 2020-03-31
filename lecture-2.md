@@ -9,25 +9,25 @@ Task 1: For every number in a list increase it by its own value
 ```javascript
 const list1 = [56, -122, 12, -5, 212, 34, -25]
 
-let result = []
+let list2 = []
 for (let i in list1) {
-	result[i] = list1[i] + list[i]
+	list2[i] = list1[i] + list[i]
 }
-console.log(result) // 
+console.log(list2) // 
 ```
 ___
 Task 2: Turn every negative number to its positive counter part
 
 ```javascript
-const list2 = [56, -122, 12, -5, 212, 34, -25]
-
-let posResult = []
+let list3 = []
 for (let i in list2) {
-	if (list2[i] < 0 && list2[i] <= maxNeg) {
-		maxNeg = list2[i]
+	if (list2[i] < 0) {
+		list3[i] = list2[i] * -1
+	} else {
+		list3[i] = list2[i]
 	}
 }
-console.log(maxNeg) // -122
+console.log(list3) // 
 ```
 ---
 Generalization: find similarities and hide them behind the abstraction
@@ -71,7 +71,7 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODMxOTIwODAsMjA0ODg5ODIxNSwxOD
+eyJoaXN0b3J5IjpbLTE0ODYwNzg1NTksMjA0ODg5ODIxNSwxOD
 IyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAz
 MTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLT
 UzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
