@@ -1,7 +1,6 @@
 
 # Composition
 ---
-Abstraction
 
 
 ---
@@ -25,7 +24,7 @@ Notice the currying!
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4Mj
-AyOTAwMSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1Nzgz
-MTksLTE5Mjg0NDU5NDhdfQ==
+eyJoaXN0b3J5IjpbLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMD
+g5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgz
+NywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
 -->
