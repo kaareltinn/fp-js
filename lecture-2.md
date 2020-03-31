@@ -52,12 +52,16 @@ list2 = iterateOverList(list1, increastByItself)
 list3 = iterateOverList(list2, makePositive)
 ```
 ---
-We can do better by using already existing abstraction
+We can do better by using already existing abstraction.
 
 ```javascript
 const map => (list, fn) => list.map(fn)
-const  
+const double => (x) => x * 2
+const abs = x = x < 0 ? x * -1 : x
+
 ```
+This helps to generalize code even more so making more useful in other scenarios.
+
 ---
 Functional programming is all about composing small functions into bigger ones.
 
@@ -86,9 +90,9 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTMzNjI2NSw5ODAyODA4NzQsLTIyNT
-g2MzM3NSwyMDQ4ODk4MjE1LDE4MjI2NjA4MzUsLTk1MDQxMjk5
-NywtMTYwMjcxOTM4LDg2OTY0MDMxMCwtOTIwODk3MDAsLTEwOD
-IwMjkwMDEsMTAxMTkzNjczNiwtNTMxMDc0ODM3LC0xNTUyNTc4
-MzE5LC0xOTI4NDQ1OTQ4XX0=
+eyJoaXN0b3J5IjpbLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMj
+U4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5
+OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMD
+gyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3
+ODMxOSwtMTkyODQ0NTk0OF19
 -->
