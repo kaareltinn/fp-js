@@ -1,5 +1,8 @@
 
 # Composition
+---
+Abstraction
+
 
 ---
 
@@ -18,11 +21,11 @@ In JS world:
 ```javascript
 const compose = (f, g) => x => f(g(x))
 ```
-
+Notice the currying!
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMT
-E5MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0
-NTk0OF19
+eyJoaXN0b3J5IjpbODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4Mj
+AyOTAwMSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1Nzgz
+MTksLTE5Mjg0NDU5NDhdfQ==
 -->
