@@ -1,6 +1,10 @@
 
 # Composition
 ---
+### What is an abstraction?
+
+ 
+---
 Functional programming is all about composing small functions into bigger ones.
 
 ### Why?
@@ -28,7 +32,7 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM2ODE4MzksLTE2MDI3MTkzOCw4Nj
+eyJoaXN0b3J5IjpbLTE3NzY1MjIzNTcsLTE2MDI3MTkzOCw4Nj
 k2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3
 MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF
 19
