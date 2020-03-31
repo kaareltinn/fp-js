@@ -24,12 +24,12 @@ In JS world:
 ```javascript
 const compose = (f, g) => x => f(g(x))
 ```
-Notice the currying!
+
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExMzQ1NjAwLC0xNjAyNzE5MzgsODY5Nj
-QwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2
-LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ
-==
+eyJoaXN0b3J5IjpbLTE0NjM2ODE4MzksLTE2MDI3MTkzOCw4Nj
+k2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3
+MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF
+19
 -->
