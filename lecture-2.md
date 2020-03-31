@@ -3,9 +3,13 @@
 ---
 ### Abstraction
 
-Re
+Recoqnizing a common pattern by remocving unneeded detail
 
+Task: Find largest number in a list
 
+```javascript
+const list1 = [56, 12, 212, 25]
+```
 ---
 Functional programming is all about composing small functions into bigger ones.
 
@@ -34,8 +38,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTA0MTI2MzIsLTE2MDI3MTkzOCw4Nj
-k2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3
-MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF
-19
+eyJoaXN0b3J5IjpbMTQzNzk5MTUyNywtMTYwMjcxOTM4LDg2OT
+Y0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjcz
+NiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX
+0=
 -->
