@@ -46,6 +46,7 @@ Specialize: using abstraction provide only what is neccessary for an use-case
 
 ```javascript
 const increastByItself = x => x + x
+const makePositive = x => x < 0 
 ```
 ---
 Functional programming is all about composing small functions into bigger ones.
@@ -75,9 +76,9 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI2MDM1LC0yMjU4NjMzNzUsMjA0OD
-g5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkz
-OCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMT
-E5MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0
-NTk0OF19
+eyJoaXN0b3J5IjpbLTYxNzg0NjA0MSwtMjI1ODYzMzc1LDIwND
+g4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5
+MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMD
+ExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0
+NDU5NDhdfQ==
 -->
