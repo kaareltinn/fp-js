@@ -78,7 +78,10 @@ Functional programming is all about composing small functions into bigger ones.
 
 What does it mean?
 
-Basically 
+Basically taking two or more functions, smashing them together to get back a new function.
+
+Notes: For example, imperative code (e.g for-loops, very hard to compose)
+
 ---
 
 Having two functions
@@ -100,7 +103,7 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzM2NTQ4MCwtMjA3MzIyNjk3Niw5OD
+eyJoaXN0b3J5IjpbLTMzMjc5MTczMywtMjA3MzIyNjk3Niw5OD
 AyODA4NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4MjI2NjA4
 MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMxMCwtOT
 IwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNTMxMDc0
