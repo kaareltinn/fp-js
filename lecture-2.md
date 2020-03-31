@@ -2,7 +2,6 @@
 # Composition
 
 ---
-Detour to algebra
 
 Having two functions
 `f: A --> B`
@@ -14,7 +13,9 @@ This function can be defined as composition of `f` and `g`:
 `f . g = x => f(g(x)``
 
 ---
+
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTA3NDgzNywtMTU1MjU3ODMxOSwtMT
-kyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbMTAxMTkzNjczNiwtNTMxMDc0ODM3LC0xNT
+UyNTc4MzE5LC0xOTI4NDQ1OTQ4XX0=
 -->
