@@ -13,7 +13,7 @@ let list2 = []
 for (let i in list1) {
 	list2[i] = list1[i] + list[i]
 }
-console.log(list2) // 
+console.log(list2) // [ 112, -244, 24, -10, 424, 68, -50 ]
 ```
 ___
 Task 2: Turn every negative number to its positive counter part
@@ -27,7 +27,7 @@ for (let i in list2) {
 		list3[i] = list2[i]
 	}
 }
-console.log(list3) // 
+console.log(list3) // [ 112, 244, 24, 10, 424, 68, 50 ]
 ```
 ---
 Generalization: find similarities and hide them behind the abstraction
@@ -71,8 +71,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODYwNzg1NTksMjA0ODg5ODIxNSwxOD
-IyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAz
-MTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLT
-UzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbLTk4MjY0MDkxNCwyMDQ4ODk4MjE1LDE4Mj
+I2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMx
+MCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNT
+MxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX0=
 -->
