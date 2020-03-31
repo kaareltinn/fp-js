@@ -68,14 +68,17 @@ Of course this is even better
 ```javascript
 list2 = list1.map(double).map(abs)
 ```
-But not every time so
-__
+But not every time so lucky to work only on arrays.
+
+But luckily enough we have higher order functions and currying to help us
+___
+### Enter composition
+
 Functional programming is all about composing small functions into bigger ones.
 
-### Why?
-* Helps to re-use code
-* Abstracts 
+What does it mean?
 
+Basically 
 ---
 
 Having two functions
@@ -97,9 +100,9 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAxNDc5MzksLTIwNzMyMjY5NzYsOT
-gwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYw
-ODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLT
-kyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3
-NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbLTc1NzM2NTQ4MCwtMjA3MzIyNjk3Niw5OD
+AyODA4NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4MjI2NjA4
+MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMxMCwtOT
+IwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNTMxMDc0
+ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX0=
 -->
