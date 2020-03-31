@@ -59,11 +59,17 @@ const map => (list, fn) => list.map(fn)
 const double => (x) => x * 2
 const abs = x = x < 0 ? x * -1 : x
 
-list
+list2 = map(map(list1, double), abs)
 ```
 This helps to generalize code even more so making more useful in other scenarios.
 
 ---
+Of course this is even better
+```javascript
+list2 = list1.map(double).map(abs)
+```
+But not every time so
+__
 Functional programming is all about composing small functions into bigger ones.
 
 ### Why?
@@ -91,7 +97,7 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY4MTYzNjgsLTIwNzMyMjY5NzYsOT
+eyJoaXN0b3J5IjpbLTEwNzAxNDc5MzksLTIwNzMyMjY5NzYsOT
 gwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYw
 ODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLT
 kyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3
