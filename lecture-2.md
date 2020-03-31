@@ -5,7 +5,7 @@
 
 #### :TODO:
 ---
-Task 1: 
+Task 1: Multiply numbe in a list by itself
 ```javascript
 const list1 = [56, -122, 12, -5, 212, 34, -25]
 
@@ -73,8 +73,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NT
-A0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAw
-LC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMT
-U1MjU3ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbLTE3NzU3MjEyMDQsMjA0ODg5ODIxNSwxOD
+IyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAz
+MTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLT
+UzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
 -->
