@@ -31,11 +31,14 @@ console.log(list3) // [ 112, 244, 24, 10, 424, 68, 50 ]
 ```
 ---
 Generalization: find similarities and hide them behind the abstraction
+
 ```javascript
 const iterateOverList = (lst) => {
+	result = []
 	for (let i in lst) {
-		???
+		result[i] = fn(lst[i])
 	}
+	return result
 }
 ```
 ___
@@ -71,8 +74,9 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4Mj
-I2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMx
-MCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNT
-MxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX0=
+eyJoaXN0b3J5IjpbLTMxODA2ODgzNSwtMjI1ODYzMzc1LDIwND
+g4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5
+MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMD
+ExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0
+NDU5NDhdfQ==
 -->
