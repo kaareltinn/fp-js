@@ -5,7 +5,7 @@
 
 #### :TODO:
 ---
-Task 1: Find largest number in a list
+Task 1: 
 ```javascript
 const list1 = [56, -122, 12, -5, 212, 34, -25]
 
@@ -73,8 +73,8 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNj
-AyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAw
-MSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLT
-E5Mjg0NDU5NDhdfQ==
+eyJoaXN0b3J5IjpbMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NT
+A0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAw
+LC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMT
+U1MjU3ODMxOSwtMTkyODQ0NTk0OF19
 -->
