@@ -101,15 +101,16 @@ Let's try in practice.
 const wrapString = (x) => [+x] // String -> [Number]
 const head = (arr) => arr[0] // [Number] -> Number
 
-Notes: +'12' === parseFloat('12')
+
 ```
 
+Notes: `+'12' === parseFloat('12')`
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NzUsLTIwNzMyMjY5NzYsOTgwMjgwOD
-c0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05
-NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5Nz
-AwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywt
-MTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOT
+gwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYw
+ODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLT
+kyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3
+NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
 -->
