@@ -3,7 +3,7 @@
 ---
 ### What is an abstraction?
 
-Task: Find largest number in a list
+Task 1: Find largest number in a list
 ```javascript
 const list1 = [56, 12, 212, 25]
 ```
@@ -19,6 +19,8 @@ for (let i in list1) {
 }
 console.log(max)
 ```
+___
+Task 2: 
 ---
 Functional programming is all about composing small functions into bigger ones.
 
@@ -47,7 +49,7 @@ const compose = (f, g) => x => f(g(x))
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjgyMTM2MSwtMTYwMjcxOTM4LDg2OT
+eyJoaXN0b3J5IjpbMTU0ODc0OTAyOCwtMTYwMjcxOTM4LDg2OT
 Y0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjcz
 NiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX
 0=
