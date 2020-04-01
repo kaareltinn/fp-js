@@ -119,12 +119,11 @@ const power = (base) => (num) => num ** base
 ---
 
 ### Currying
-Curried functions can accept only subset of required arguments returning new functions expecting rest of the arguments.
+Curried functions accept arguments one by one, returning
 
 In many functional languages all functions are curried by default. In JS non-curried function can be turned to curried by using helper function.
 
 ```javascript
-import { curry } from 'lodash'
 const power = curry((base, num) => num ** base)
 // Note order of arguments
 const square = power(2)
@@ -134,5 +133,6 @@ square(4) == power(2, 4) // true
 ### Homework #1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ1NDA1NjQsMTkwMTE1NzYyMV19
+eyJoaXN0b3J5IjpbLTcyMDcwMDQxNCwtMTIwNDU0MDU2NCwxOT
+AxMTU3NjIxXX0=
 -->
