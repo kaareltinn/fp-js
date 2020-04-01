@@ -130,13 +130,13 @@ fromBinaryStringToDecimal('1010') // 10
 ---
 ### Why composition?
 * Composing two or more functions return also function (e.g preserves its form, like a Lego brick)
-* Improves readability (no nesting function calls
+* Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwOTM3NjQyLDgyMTQwNzc1Niw5MzM5MT
-M5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0
-LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NT
-A0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAw
-LC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMT
-U1MjU3ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbMTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOT
+EzOTExLC0xNzc2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3
+NCwtMjI1ODYzMzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOT
+UwNDEyOTk3LC0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcw
+MCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLT
+E1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ==
 -->
