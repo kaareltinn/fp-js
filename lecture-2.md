@@ -78,7 +78,7 @@ Functional programming is all about composing small functions into bigger ones.
 
 What does it mean?
 
-Basically taking two or more functions, smashing them together to get back a new function.
+Basically, taking two or more functions, smashing them together to get a new function.
 
 Notes: For example, imperative code (e.g for-loops, very hard to compose)
 
@@ -126,7 +126,8 @@ const compose = (f, g) => x => f(g(x))
 const fromBinaryStringToDecimal = compose(toDecimal, toBinary)
 fromBinaryStringToDecimal('1010') // 10
 ```
- 
+ ---
+ Coming back to out 
 ---
 ### Why composition?
 * Composing two or more functions return also function (e.g preserves its form, like a Lego brick)
@@ -134,7 +135,7 @@ fromBinaryStringToDecimal('1010') // 10
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDkyODY3MzYsMTYyMjQ5NDk3Myw4Mj
+eyJoaXN0b3J5IjpbLTE5MzM5NDE4ODcsMTYyMjQ5NDk3Myw4Mj
 E0MDc3NTYsOTMzOTEzOTExLC0xNzc2ODMwODA1LC0yMDczMjI2
 OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1LDIwNDg4OTgyMTUsMT
 gyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsODY5NjQw
