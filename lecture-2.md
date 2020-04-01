@@ -155,6 +155,8 @@ Somewhat more natural would be left-to-right evaluation, for that we can define 
 ```javascript
 const pipe = (f, g) => x => g(f(x))
 ```
+#### Q: Why not to define `compose` as `pipe` in the first place?
+Notes: First, this is how compose is defined in math and in other 
 
 ---
 ### Why composition?
@@ -163,11 +165,11 @@ const pipe = (f, g) => x => g(f(x))
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MDk2NSwxOTI1Mjg0NDQ2LDIwODc3MD
-YxNSwxNDE5MjM3MTI5LDE0MDY0MTA0NzcsMTY3OTkxOTE4OCwx
-NjIyNDk0OTczLDgyMTQwNzc1Niw5MzM5MTM5MTEsLTE3NzY4Mz
-A4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMzNzUs
-MjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLTE2MD
-I3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAx
-XX0=
+eyJoaXN0b3J5IjpbOTYyNDkxNzAsMTkyNTI4NDQ0NiwyMDg3Nz
+A2MTUsMTQxOTIzNzEyOSwxNDA2NDEwNDc3LDE2Nzk5MTkxODgs
+MTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOTEzOTExLC0xNzc2OD
+MwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1
+LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNj
+AyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAw
+MV19
 -->
