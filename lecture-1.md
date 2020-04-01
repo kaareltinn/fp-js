@@ -122,17 +122,21 @@ const power = (base) => (num) => num ** base
 Curried functions accept arguments one by one, every time returning new function waiting for next argument.
 
 In many functional languages all functions are curried by default. 
-In JS this can be emulate with higher order functions
+In JS this can be emulate with higher order functions.
 ```javascript
-const power = curry((base, num) => num ** base)
+const power = base => num => num ** base
 // Note order of arguments
 const square = power(2)
-square(4) == power(2, 4) // true
+square(4) == power(2)(4) // true
+power(2, 4) // error -> sadly not possible!
+
+import { curry } from 'lodash'
+const power = curry(
 ```
 ---
 ### Homework #1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDM5MDMyNywtMTIwNDU0MDU2NCwxOT
-AxMTU3NjIxXX0=
+eyJoaXN0b3J5IjpbNzA0NDc4MzQ0LC0xMjA0NTQwNTY0LDE5MD
+ExNTc2MjFdfQ==
 -->
