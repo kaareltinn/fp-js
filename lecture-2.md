@@ -149,7 +149,7 @@ Notes: data-last and currying
 
 ---
 ### Arguments order
-FP libraries use data-last argument ordering to enable composing
+FP libraries use data-last argument ordering to enable composing.
 
 ---
 ### Why composition?
@@ -158,11 +158,11 @@ FP libraries use data-last argument ordering to enable composing
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTIzNzEyOSwxNDA2NDEwNDc3LDE2Nz
-k5MTkxODgsMTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOTEzOTEx
-LC0xNzc2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwtMj
-I1ODYzMzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEy
-OTk3LC0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMT
-A4MjAyOTAwMSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1
-NzgzMTldfQ==
+eyJoaXN0b3J5IjpbMTMzNDcxNzM3NywxNDE5MjM3MTI5LDE0MD
+Y0MTA0NzcsMTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMTQwNzc1
+Niw5MzM5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOT
+gwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYw
+ODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLT
+kyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3
+NDgzN119
 -->
