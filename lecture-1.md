@@ -90,7 +90,7 @@ arr.amp(num => num * 3) // [18, 6, 21]
 Other useful HOF's: `filter`, `reduce`
 
 ---
-### 
+### Functions are data
 Even more! Functions as first-class citizens of the programming language.
 
 * Assignable to a variable value
@@ -139,6 +139,6 @@ power(2, 4) // 16 -> Yay!
 ### Homework #1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDA5OTIwLDEzOTg0NjcxMjEsLTEyMD
-Q1NDA1NjQsMTkwMTE1NzYyMV19
+eyJoaXN0b3J5IjpbMTg3NTY0ODE4NywxMzk4NDY3MTIxLC0xMj
+A0NTQwNTY0LDE5MDExNTc2MjFdfQ==
 -->
