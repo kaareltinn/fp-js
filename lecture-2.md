@@ -129,11 +129,11 @@ fromBinaryStringToDecimal('1010') // 10
  
 ---
 ### Why composition?
-* Composition of two functions return also function (e.g preserves its form, like a Lego brick)
-* 
+* Composing two or more functions return also function (e.g preserves its form, like a Lego brick)
+* Improves readability (no nesting function calls
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyMTY3ODk3LDgyMTQwNzc1Niw5MzM5MT
+eyJoaXN0b3J5IjpbNDEwOTM3NjQyLDgyMTQwNzc1Niw5MzM5MT
 M5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0
 LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NT
 A0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAw
