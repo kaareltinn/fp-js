@@ -148,6 +148,7 @@ Notes: data-last and currying
 
 ---
 ### Pipe
+compose evaluates functions from right-to-left, e.g meaning g will be 
 ```javascript
 
 ```
@@ -159,11 +160,11 @@ Notes: data-last and currying
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTI4NDQ0NiwyMDg3NzA2MTUsMTQxOT
-IzNzEyOSwxNDA2NDEwNDc3LDE2Nzk5MTkxODgsMTYyMjQ5NDk3
-Myw4MjE0MDc3NTYsOTMzOTEzOTExLC0xNzc2ODMwODA1LC0yMD
-czMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1LDIwNDg4OTgy
-MTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsOD
-Y5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2
-NzM2XX0=
+eyJoaXN0b3J5IjpbLTExNDA5MTIxMzIsMTkyNTI4NDQ0NiwyMD
+g3NzA2MTUsMTQxOTIzNzEyOSwxNDA2NDEwNDc3LDE2Nzk5MTkx
+ODgsMTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOTEzOTExLC0xNz
+c2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYz
+Mzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC
+0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAy
+OTAwMV19
 -->
