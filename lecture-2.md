@@ -148,7 +148,7 @@ doubleAbs(list1) === map(map(list1, double), abs) // true
 Notes: data-last and currying
 
 ---
-### Arguments order
+### Order
 FP libraries use data-last argument ordering to enable composing.
 
 ---
@@ -158,11 +158,11 @@ FP libraries use data-last argument ordering to enable composing.
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDcxNzM3NywxNDE5MjM3MTI5LDE0MD
-Y0MTA0NzcsMTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMTQwNzc1
-Niw5MzM5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOT
-gwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYw
-ODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLT
-kyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLTUzMTA3
-NDgzN119
+eyJoaXN0b3J5IjpbMjA4NzcwNjE1LDE0MTkyMzcxMjksMTQwNj
+QxMDQ3NywxNjc5OTE5MTg4LDE2MjI0OTQ5NzMsODIxNDA3NzU2
+LDkzMzkxMzkxMSwtMTc3NjgzMDgwNSwtMjA3MzIyNjk3Niw5OD
+AyODA4NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4MjI2NjA4
+MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMxMCwtOT
+IwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNTMxMDc0
+ODM3XX0=
 -->
