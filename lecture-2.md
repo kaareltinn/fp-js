@@ -127,8 +127,7 @@ const fromBinaryStringToDecimal = compose(toDecimal, toBinary)
 fromBinaryStringToDecimal('1010') // 10
 ```
  ---
- Coming back to iteration over list
-```javascript
+ Coming back to iteration over list example
 ```javascript
 const map => (list, fn) => list.map(fn)
 const double => (x) => x * 2
@@ -158,11 +157,11 @@ FP libraries use data-last argument ordering to enable composing.
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwMDQyOTIzLDIwODc3MDYxNSwxNDE5Mj
-M3MTI5LDE0MDY0MTA0NzcsMTY3OTkxOTE4OCwxNjIyNDk0OTcz
-LDgyMTQwNzc1Niw5MzM5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNz
-MyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIx
-NSwxODIyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Nj
-k2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTE4OTYwMjYxMiwyMDg3NzA2MTUsMTQxOT
+IzNzEyOSwxNDA2NDEwNDc3LDE2Nzk5MTkxODgsMTYyMjQ5NDk3
+Myw4MjE0MDc3NTYsOTMzOTEzOTExLC0xNzc2ODMwODA1LC0yMD
+czMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1LDIwNDg4OTgy
+MTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsOD
+Y5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2
+NzM2XX0=
 -->
