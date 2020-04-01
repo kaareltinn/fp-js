@@ -131,12 +131,13 @@ square(4) == power(2)(4) // true
 power(2, 4) // error -> sadly not possible!
 
 import { curry } from 'lodash'
-const power = curry(
+const power = curry((base, num) => num ** base)
+power(2, 4) // 16 -> Yay!
 ```
 ---
 ### Homework #1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0NDc4MzQ0LC0xMjA0NTQwNTY0LDE5MD
-ExNTc2MjFdfQ==
+eyJoaXN0b3J5IjpbMTM5ODQ2NzEyMSwtMTIwNDU0MDU2NCwxOT
+AxMTU3NjIxXX0=
 -->
