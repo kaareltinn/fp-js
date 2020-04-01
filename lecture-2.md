@@ -145,7 +145,11 @@ and define a new function using `compose`
 const doubleAbs = compose(map2(double), map2(abs))
 doubleAbs(list1) === map(map(list1, double), abs) // true
 ```
-Notes: data-last and currying, many FP libraries use data-last arguments order to enable composing
+Notes: data-last and currying
+
+---
+### Arguments order
+FP libraries use data-last argument ordering to enable composing
 
 ---
 ### Why composition?
@@ -154,11 +158,11 @@ Notes: data-last and currying, many FP libraries use data-last arguments order t
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNjQxMDQ3NywxNjc5OTE5MTg4LDE2Mj
-I0OTQ5NzMsODIxNDA3NzU2LDkzMzkxMzkxMSwtMTc3NjgzMDgw
-NSwtMjA3MzIyNjk3Niw5ODAyODA4NzQsLTIyNTg2MzM3NSwyMD
-Q4ODk4MjE1LDE4MjI2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcx
-OTM4LDg2OTY0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMT
-AxMTkzNjczNiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4
-NDQ1OTQ4XX0=
+eyJoaXN0b3J5IjpbMTQxOTIzNzEyOSwxNDA2NDEwNDc3LDE2Nz
+k5MTkxODgsMTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOTEzOTEx
+LC0xNzc2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwtMj
+I1ODYzMzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEy
+OTk3LC0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMT
+A4MjAyOTAwMSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1
+NzgzMTldfQ==
 -->
