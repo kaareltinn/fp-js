@@ -136,10 +136,11 @@ const abs = x = x < 0 ? x * -1 : x
 
 list2 = map(map(list1, double), abs)
 ```
-Let
+Let's redefine our map: saw
 ```javascript
-
+const map = fn => list => list.map(fn)
 ```
+Notes: data-last for currying
 ---
 ### Why composition?
 * Composing two or more functions return also function (e.g preserves its form, like a Lego brick)
@@ -147,7 +148,7 @@ Let
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3NTI5ODQ5LDE2MjI0OTQ5NzMsODIxND
+eyJoaXN0b3J5IjpbMjE2NzgxNTY5LDE2MjI0OTQ5NzMsODIxND
 A3NzU2LDkzMzkxMzkxMSwtMTc3NjgzMDgwNSwtMjA3MzIyNjk3
 Niw5ODAyODA4NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4Mj
 I2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMx
