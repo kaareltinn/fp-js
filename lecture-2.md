@@ -127,7 +127,19 @@ const fromBinaryStringToDecimal = compose(toDecimal, toBinary)
 fromBinaryStringToDecimal('1010') // 10
 ```
  ---
- Coming back to out 
+ Coming back to iteration over list
+```javascript
+```javascript
+const map => (list, fn) => list.map(fn)
+const double => (x) => x * 2
+const abs = x = x < 0 ? x * -1 : x
+
+list2 = map(map(list1, double), abs)
+```
+Let
+```javascript
+
+```
 ---
 ### Why composition?
 * Composing two or more functions return also function (e.g preserves its form, like a Lego brick)
@@ -135,11 +147,10 @@ fromBinaryStringToDecimal('1010') // 10
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM5NDE4ODcsMTYyMjQ5NDk3Myw4Mj
-E0MDc3NTYsOTMzOTEzOTExLC0xNzc2ODMwODA1LC0yMDczMjI2
-OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1LDIwNDg4OTgyMTUsMT
-gyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsODY5NjQw
-MzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2LC
-01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ==
-
+eyJoaXN0b3J5IjpbNzY3NTI5ODQ5LDE2MjI0OTQ5NzMsODIxND
+A3NzU2LDkzMzkxMzkxMSwtMTc3NjgzMDgwNSwtMjA3MzIyNjk3
+Niw5ODAyODA4NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4Mj
+I2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMx
+MCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNT
+MxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX0=
 -->
