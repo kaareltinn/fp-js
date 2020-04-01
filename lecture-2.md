@@ -117,11 +117,16 @@ Notes: `+'12' === parseInt('12')`
 ---
 ```javascript
 const fromBinaryStringToDecimal = x => toDecimal(toBinary(x))
-fromBin
+fromBinaryStringToDecimal('1010') // 10
+```
+But we can generalize `toDecimal(toBinary(x))`
+
+```javascript
+const compose = 
 ```
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1ODMwNzU3OCw5MzM5MTM5MTEsLTE3Nz
+eyJoaXN0b3J5IjpbMTk4NTQ3OTQ3Nyw5MzM5MTM5MTEsLTE3Nz
 Y4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMz
 NzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLT
 E2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5
