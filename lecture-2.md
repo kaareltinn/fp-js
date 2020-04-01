@@ -83,7 +83,7 @@ Basically taking two or more functions, smashing them together to get back a new
 Notes: For example, imperative code (e.g for-loops, very hard to compose)
 
 ---
-### Detour to a scary math-land
+### Detour to scary math-land
 
 Having two functions
 `f: A --> B`
@@ -108,10 +108,10 @@ Notes: `+'12' === parseInt('12')`
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDM0NTc0ODAsLTE3NzY4MzA4MDUsLT
-IwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5
-ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOC
-w4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5
-MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NT
-k0OF19
+eyJoaXN0b3J5IjpbOTMzOTEzOTExLC0xNzc2ODMwODA1LC0yMD
+czMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1LDIwNDg4OTgy
+MTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsOD
+Y5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2
+NzM2LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5ND
+hdfQ==
 -->
