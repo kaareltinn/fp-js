@@ -150,9 +150,10 @@ Notes: data-last and currying
 ### Pipe
 `compose(f, g)` evaluates functions from right-to-left, e.g meaning `g `will run first and its return value passed to `f`
 
-Somewhat more natural would be left-to-right evaluation, for that 
-```javascript
+Somewhat more natural would be left-to-right evaluation, for that we can define `pipe`
 
+```javascript
+const pipe = (f, g) => x => g(f(x))
 ```
 
 ---
@@ -162,11 +163,11 @@ Somewhat more natural would be left-to-right evaluation, for that
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTcyMTcwOSwxOTI1Mjg0NDQ2LDIwOD
-c3MDYxNSwxNDE5MjM3MTI5LDE0MDY0MTA0NzcsMTY3OTkxOTE4
-OCwxNjIyNDk0OTczLDgyMTQwNzc1Niw5MzM5MTM5MTEsLTE3Nz
-Y4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMz
-NzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLT
-E2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5
-MDAxXX0=
+eyJoaXN0b3J5IjpbNTc3MDk2NSwxOTI1Mjg0NDQ2LDIwODc3MD
+YxNSwxNDE5MjM3MTI5LDE0MDY0MTA0NzcsMTY3OTkxOTE4OCwx
+NjIyNDk0OTczLDgyMTQwNzc1Niw5MzM5MTM5MTEsLTE3NzY4Mz
+A4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMzNzUs
+MjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLTE2MD
+I3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAx
+XX0=
 -->
