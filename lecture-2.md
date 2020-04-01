@@ -98,6 +98,10 @@ This function can be defined as composition of `f` and `g`:
 Let's try in practice.
 
 ```javascript
+const Binary = x => ({
+	value: x.toString(),
+	inspect: `B${x}`,
+}) 
 const wrapString = (x) => [+x] // String -> [Number]
 const head = (arr) => arr[0] // [Number] -> Number
 
@@ -108,10 +112,10 @@ Notes: `+'12' === parseInt('12')`
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzOTEzOTExLC0xNzc2ODMwODA1LC0yMD
-czMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1LDIwNDg4OTgy
-MTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsOD
-Y5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2
-NzM2LC01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5ND
-hdfQ==
+eyJoaXN0b3J5IjpbLTQyNDYzMDA2Miw5MzM5MTM5MTEsLTE3Nz
+Y4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMz
+NzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLT
+E2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5
+MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOS
+wtMTkyODQ0NTk0OF19
 -->
