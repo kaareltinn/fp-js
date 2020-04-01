@@ -148,7 +148,9 @@ Notes: data-last and currying
 
 ---
 ### Pipe
-compose evaluates functions from right-to-left, e.g meaning g will be 
+`compose(f, g)` evaluates functions from right-to-left, e.g meaning `g `will run first and its return value passed to `f`
+
+Somewhat more natural would be left-to-right evaluation, for that 
 ```javascript
 
 ```
@@ -160,11 +162,11 @@ compose evaluates functions from right-to-left, e.g meaning g will be
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA5MTIxMzIsMTkyNTI4NDQ0NiwyMD
-g3NzA2MTUsMTQxOTIzNzEyOSwxNDA2NDEwNDc3LDE2Nzk5MTkx
-ODgsMTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOTEzOTExLC0xNz
-c2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYz
-Mzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC
-0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAy
-OTAwMV19
+eyJoaXN0b3J5IjpbLTE4NTcyMTcwOSwxOTI1Mjg0NDQ2LDIwOD
+c3MDYxNSwxNDE5MjM3MTI5LDE0MDY0MTA0NzcsMTY3OTkxOTE4
+OCwxNjIyNDk0OTczLDgyMTQwNzc1Niw5MzM5MTM5MTEsLTE3Nz
+Y4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMz
+NzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLT
+E2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5
+MDAxXX0=
 -->
