@@ -108,18 +108,23 @@ const toBinary = (x) => Binary(x) // String -> Binary
 const toDecimal = (x) => parseInt(x.value, 2) // Binary -> Decimal
 
 toBinary(1010) // B1010
-toDecimal(Binary(1010))
-
+toDecimal(Binary(1010)) // 10
 ```
+How to get from `String -> Decimal` ?
 
 Notes: `+'12' === parseInt('12')`
 
 ---
+```javascript
+const fromBinaryStringToDecimal = x => toDecimal(toBinary(x))
+fromBin
+```
+---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTY1NTAwMzIsOTMzOTEzOTExLC0xNz
-c2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYz
-Mzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC
-0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAy
-OTAwMSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLTE1NTI1NzgzMT
-ksLTE5Mjg0NDU5NDhdfQ==
+eyJoaXN0b3J5IjpbLTQ1ODMwNzU3OCw5MzM5MTM5MTEsLTE3Nz
+Y4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMz
+NzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLT
+E2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5
+MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOS
+wtMTkyODQ0NTk0OF19
 -->
