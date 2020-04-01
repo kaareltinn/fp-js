@@ -61,7 +61,7 @@ const abs = x = x < 0 ? x * -1 : x
 
 list2 = map(map(list1, double), abs)
 ```
-This helps to generalize code even more so making more useful in other scenarios.
+This helps to generalize code even more making it useful in other scenarios.
 
 ---
 Of course this is even better
@@ -158,11 +158,11 @@ FP libraries use data-last argument ordering to enable composing.
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NzcwNjE1LDE0MTkyMzcxMjksMTQwNj
-QxMDQ3NywxNjc5OTE5MTg4LDE2MjI0OTQ5NzMsODIxNDA3NzU2
-LDkzMzkxMzkxMSwtMTc3NjgzMDgwNSwtMjA3MzIyNjk3Niw5OD
-AyODA4NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4MjI2NjA4
-MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMxMCwtOT
-IwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNTMxMDc0
-ODM3XX0=
+eyJoaXN0b3J5IjpbNTMwMDQyOTIzLDIwODc3MDYxNSwxNDE5Mj
+M3MTI5LDE0MDY0MTA0NzcsMTY3OTkxOTE4OCwxNjIyNDk0OTcz
+LDgyMTQwNzc1Niw5MzM5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNz
+MyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIx
+NSwxODIyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Nj
+k2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3
+MzZdfQ==
 -->
