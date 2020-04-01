@@ -156,8 +156,11 @@ Somewhat more natural would be left-to-right evaluation, for that we can define 
 const pipe = (f, g) => x => g(f(x))
 ```
 #### Q: Why not to define `compose` as `pipe` in the first place?
-Notes: First, this is how compose is defined in math and in other 
 
+Notes: First, this is how compose is defined in math and in other FP languages. Secondly, name pipe conveys idea much better, e.g its piping data through smaller functions and transforming it along the way
+
+---
+#
 ---
 ### Why composition?
 * Composing two or more functions return also function (e.g preserves its form, like a Lego brick)
@@ -165,11 +168,11 @@ Notes: First, this is how compose is defined in math and in other
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNDkxNzAsMTkyNTI4NDQ0NiwyMDg3Nz
-A2MTUsMTQxOTIzNzEyOSwxNDA2NDEwNDc3LDE2Nzk5MTkxODgs
-MTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOTEzOTExLC0xNzc2OD
-MwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1
-LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNj
-AyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMCwtMTA4MjAyOTAw
-MV19
+eyJoaXN0b3J5IjpbMjExMDMwMzgxMiwxOTI1Mjg0NDQ2LDIwOD
+c3MDYxNSwxNDE5MjM3MTI5LDE0MDY0MTA0NzcsMTY3OTkxOTE4
+OCwxNjIyNDk0OTczLDgyMTQwNzc1Niw5MzM5MTM5MTEsLTE3Nz
+Y4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMz
+NzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLT
+E2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5
+MDAxXX0=
 -->
