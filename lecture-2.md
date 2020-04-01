@@ -122,14 +122,16 @@ fromBinaryStringToDecimal('1010') // 10
 But we can generalize `toDecimal(toBinary(x))`
 
 ```javascript
-const compose = 
+const compose = (f, g) => x => f(g(x))
 ```
+Note: compose is *curried* 
+
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTQ3OTQ3Nyw5MzM5MTM5MTEsLTE3Nz
-Y4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMz
-NzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLT
-E2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5
-MDAxLDEwMTE5MzY3MzYsLTUzMTA3NDgzNywtMTU1MjU3ODMxOS
-wtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbODIxNDA3NzU2LDkzMzkxMzkxMSwtMTc3Nj
+gzMDgwNSwtMjA3MzIyNjk3Niw5ODAyODA4NzQsLTIyNTg2MzM3
+NSwyMDQ4ODk4MjE1LDE4MjI2NjA4MzUsLTk1MDQxMjk5NywtMT
+YwMjcxOTM4LDg2OTY0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkw
+MDEsMTAxMTkzNjczNiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC
+0xOTI4NDQ1OTQ4XX0=
 -->
