@@ -71,6 +71,17 @@ Notes: caching/memoization, parallel computing, delaying evaluation
 Notes: It does not mean we always need write pure functions since any useful application requires having side-effects. But we should thrive for using pure functions as mush as possible and separate pure code from impure so we could have better control over side-effects.
 
 ---
+### Functions are data
+In FP functions are data type like any other.
+
+#### How?
+
+* Assignable to a variable value
+* As an object property
+
+In other words: functions act as any other piece of data
+
+---
 ### Higher order functions
 
 Functions that take functions as an argument or return function as a return value are called **higher order functions**.
@@ -130,6 +141,6 @@ power(2, 4) // 16 -> Yay!
 ### Homework #1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MDMwNzExMSwxMzk4NDY3MTIxLC0xMj
-A0NTQwNTY0LDE5MDExNTc2MjFdfQ==
+eyJoaXN0b3J5IjpbMjU1NjEwNzQxLDEzOTg0NjcxMjEsLTEyMD
+Q1NDA1NjQsMTkwMTE1NzYyMV19
 -->
