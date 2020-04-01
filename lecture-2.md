@@ -70,7 +70,7 @@ list2 = list1.map(double).map(abs)
 ```
 But not every time so lucky to work only on arrays.
 
-But luckily enough we have higher order functions and currying to help us
+But luckily enough we have higher order functions to help us.
 ___
 ### Enter composition
 
@@ -130,13 +130,15 @@ fromBinaryStringToDecimal('1010') // 10
 ---
 ### Why composition?
 * Composing two or more functions return also function (e.g preserves its form, like a Lego brick)
+* Helps to abstract common logic and re-use it where needed
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOT
-EzOTExLC0xNzc2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3
-NCwtMjI1ODYzMzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOT
-UwNDEyOTk3LC0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcw
-MCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLT
-E1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ==
+eyJoaXN0b3J5IjpbLTE5MDkyODY3MzYsMTYyMjQ5NDk3Myw4Mj
+E0MDc3NTYsOTMzOTEzOTExLC0xNzc2ODMwODA1LC0yMDczMjI2
+OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1LDIwNDg4OTgyMTUsMT
+gyMjY2MDgzNSwtOTUwNDEyOTk3LC0xNjAyNzE5MzgsODY5NjQw
+MzEwLC05MjA4OTcwMCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2LC
+01MzEwNzQ4MzcsLTE1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ==
+
 -->
