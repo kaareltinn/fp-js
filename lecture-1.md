@@ -27,7 +27,7 @@ addUser() // What happens?
 ```
 Error? New user record created?
 
-Notes: JS gives no error if function with arguments is called with out any passed
+Notes: JS gives no error if function with arguments is called without any passed
 
 ---
 In FP we treat a function as main building block. For that it is needed that function satisfies certain rules.
@@ -90,15 +90,6 @@ arr.amp(num => num * 3) // [18, 6, 21]
 Other useful HOF's: `filter`, `reduce`
 
 ---
-### Functions are data
-Even more! Functions as first-class citizens of the programming language.
-
-* Assignable to a variable value
-* As an object property
-
-In other words: functions act as any other piece of data
-
----
 ```javascript
 function power(base) {
 	return function(num) {
@@ -139,6 +130,6 @@ power(2, 4) // 16 -> Yay!
 ### Homework #1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTY0ODE4NywxMzk4NDY3MTIxLC0xMj
+eyJoaXN0b3J5IjpbMTU2MDMwNzExMSwxMzk4NDY3MTIxLC0xMj
 A0NTQwNTY0LDE5MDExNTc2MjFdfQ==
 -->
