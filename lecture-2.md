@@ -147,8 +147,10 @@ doubleAbs(list1) === map(map(list1, double), abs) // true
 Notes: data-last and currying
 
 ---
-### Order
-FP libraries use data-last argument ordering to enable composing.
+### Pipe
+```javascript
+
+```
 
 ---
 ### Why composition?
@@ -157,7 +159,7 @@ FP libraries use data-last argument ordering to enable composing.
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYwMjYxMiwyMDg3NzA2MTUsMTQxOT
+eyJoaXN0b3J5IjpbMTkyNTI4NDQ0NiwyMDg3NzA2MTUsMTQxOT
 IzNzEyOSwxNDA2NDEwNDc3LDE2Nzk5MTkxODgsMTYyMjQ5NDk3
 Myw4MjE0MDc3NTYsOTMzOTEzOTExLC0xNzc2ODMwODA1LC0yMD
 czMjI2OTc2LDk4MDI4MDg3NCwtMjI1ODYzMzc1LDIwNDg4OTgy
