@@ -136,9 +136,10 @@ const abs = x = x < 0 ? x * -1 : x
 
 list2 = map(map(list1, double), abs)
 ```
-Let's redefine our map: saw
+Let's redefine our map: swap the arguments and use currying
 ```javascript
 const map = fn => list => list.map(fn)
+const doubleAbs = compose(map(double), map(abs))
 ```
 Notes: data-last for currying
 ---
@@ -148,10 +149,10 @@ Notes: data-last for currying
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NzgxNTY5LDE2MjI0OTQ5NzMsODIxND
-A3NzU2LDkzMzkxMzkxMSwtMTc3NjgzMDgwNSwtMjA3MzIyNjk3
-Niw5ODAyODA4NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4Mj
-I2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMx
-MCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMTAxMTkzNjczNiwtNT
-MxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4NDQ1OTQ4XX0=
+eyJoaXN0b3J5IjpbMTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMT
+QwNzc1Niw5MzM5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5
+NzYsOTgwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxOD
+IyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAz
+MTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLT
+UzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
 -->
