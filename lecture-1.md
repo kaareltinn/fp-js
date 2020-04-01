@@ -76,17 +76,19 @@ In FP functions are data type like any other.
 
 #### How?
 
-* Assignable to a variable value
-* As an object property
+* You can assign function to variable
+* Pass function to as an parameter to another function
+* Return function as an return value of another function
+* Make function as an object property
 
-In other words: functions act as any other piece of data
+See? Like any other data
 
 ---
 ### Higher order functions
 
 Functions that take functions as an argument or return function as a return value are called **higher order functions**.
 
-Most famous (and probably most useful) higher order function
+Most famous (and probably most useful) higher order function is `map`
 ```javascript
 const arr = [6, 2, 7]
 function double(num) {
@@ -141,6 +143,6 @@ power(2, 4) // 16 -> Yay!
 ### Homework #1
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1NjEwNzQxLDEzOTg0NjcxMjEsLTEyMD
-Q1NDA1NjQsMTkwMTE1NzYyMV19
+eyJoaXN0b3J5IjpbLTE4MzY4NjE1NTksMTM5ODQ2NzEyMSwtMT
+IwNDU0MDU2NCwxOTAxMTU3NjIxXX0=
 -->
