@@ -138,8 +138,9 @@ list2 = map(map(list1, double), abs)
 ```
 Let's redefine our map: swap the arguments and use currying
 ```javascript
-const map = fn => list => list.map(fn)
-const doubleAbs = compose(map(double), map(abs))
+const map2 = fn => list => list.map(fn)
+const doubleAbs = compose(map2(double), map(abs))
+doubleAbs(list1) === 
 ```
 Notes: data-last for currying
 ---
@@ -149,10 +150,11 @@ Notes: data-last for currying
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMT
-QwNzc1Niw5MzM5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5
-NzYsOTgwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxOD
-IyNjYwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAz
-MTAsLTkyMDg5NzAwLC0xMDgyMDI5MDAxLDEwMTE5MzY3MzYsLT
-UzMTA3NDgzNywtMTU1MjU3ODMxOSwtMTkyODQ0NTk0OF19
+eyJoaXN0b3J5IjpbLTMyNjQzNjA5MCwxNjc5OTE5MTg4LDE2Mj
+I0OTQ5NzMsODIxNDA3NzU2LDkzMzkxMzkxMSwtMTc3NjgzMDgw
+NSwtMjA3MzIyNjk3Niw5ODAyODA4NzQsLTIyNTg2MzM3NSwyMD
+Q4ODk4MjE1LDE4MjI2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcx
+OTM4LDg2OTY0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkwMDEsMT
+AxMTkzNjczNiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC0xOTI4
+NDQ1OTQ4XX0=
 -->
