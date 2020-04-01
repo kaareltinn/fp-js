@@ -123,15 +123,18 @@ But we can generalize `toDecimal(toBinary(x))`
 
 ```javascript
 const compose = (f, g) => x => f(g(x))
+// And we can redefine
+const fromBinaryStringToDecimal = compose(toDecimal, toBinary)
+fromBinaryStringToDecimal('1010') // 10
 ```
-Note: compose is *curried* 
-
+ 
+---
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxNDA3NzU2LDkzMzkxMzkxMSwtMTc3Nj
-gzMDgwNSwtMjA3MzIyNjk3Niw5ODAyODA4NzQsLTIyNTg2MzM3
-NSwyMDQ4ODk4MjE1LDE4MjI2NjA4MzUsLTk1MDQxMjk5NywtMT
-YwMjcxOTM4LDg2OTY0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkw
-MDEsMTAxMTkzNjczNiwtNTMxMDc0ODM3LC0xNTUyNTc4MzE5LC
-0xOTI4NDQ1OTQ4XX0=
+eyJoaXN0b3J5IjpbLTQyNTA2MzU3Nyw4MjE0MDc3NTYsOTMzOT
+EzOTExLC0xNzc2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3
+NCwtMjI1ODYzMzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOT
+UwNDEyOTk3LC0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcw
+MCwtMTA4MjAyOTAwMSwxMDExOTM2NzM2LC01MzEwNzQ4MzcsLT
+E1NTI1NzgzMTksLTE5Mjg0NDU5NDhdfQ==
 -->
