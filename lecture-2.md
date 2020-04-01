@@ -139,10 +139,14 @@ list2 = map(map(list1, double), abs)
 Let's redefine our map: swap the arguments and use currying
 ```javascript
 const map2 = fn => list => list.map(fn)
-const doubleAbs = compose(map2(double), map(abs))
-doubleAbs(list1) === 
 ```
-Notes: data-last for currying
+and define a new function using `compose`
+```javascript
+const doubleAbs = compose(map2(double), map2(abs))
+doubleAbs(list1) === map(map(list1, double), abs) // true
+```
+Notes: data-last for currying,
+
 ---
 ### Why composition?
 * Composing two or more functions return also function (e.g preserves its form, like a Lego brick)
@@ -150,7 +154,7 @@ Notes: data-last for currying
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjQzNjA5MCwxNjc5OTE5MTg4LDE2Mj
+eyJoaXN0b3J5IjpbMTczMTA3MDMzNiwxNjc5OTE5MTg4LDE2Mj
 I0OTQ5NzMsODIxNDA3NzU2LDkzMzkxMzkxMSwtMTc3NjgzMDgw
 NSwtMjA3MzIyNjk3Niw5ODAyODA4NzQsLTIyNTg2MzM3NSwyMD
 Q4ODk4MjE1LDE4MjI2NjA4MzUsLTk1MDQxMjk5NywtMTYwMjcx
