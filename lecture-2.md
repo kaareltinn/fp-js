@@ -30,7 +30,7 @@ for (let i in list2) {
 console.log(list3) // [ 112, 244, 24, 10, 424, 68, 50 ]
 ```
 ---
-Generalization: find similarities and hide them behind the abstraction
+Generalize: find similarities and hide them behind the abstraction
 
 ```javascript
 const iterateOverList = (lst, fn) => {
@@ -42,7 +42,7 @@ const iterateOverList = (lst, fn) => {
 }
 ```
 ___
-Specialize: using abstraction provide only what is neccessary for an use-case
+Specialize: using abstraction provide only what is necessary for an use-case
 
 ```javascript
 const increastByItself = x => x + x
@@ -168,11 +168,11 @@ Notes: First, this is how compose is defined in math and in other FP languages. 
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MDUwNTUsMTE3NzMyNDQ5OCwxOTI1Mj
-g0NDQ2LDIwODc3MDYxNSwxNDE5MjM3MTI5LDE0MDY0MTA0Nzcs
-MTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMTQwNzc1Niw5MzM5MT
-M5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0
-LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NT
-A0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAw
-XX0=
+eyJoaXN0b3J5IjpbLTE5MjYxNDc1MjIsMTE3NzMyNDQ5OCwxOT
+I1Mjg0NDQ2LDIwODc3MDYxNSwxNDE5MjM3MTI5LDE0MDY0MTA0
+NzcsMTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMTQwNzc1Niw5Mz
+M5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgw
+ODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC
+05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5
+NzAwXX0=
 -->
