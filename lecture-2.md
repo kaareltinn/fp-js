@@ -92,7 +92,7 @@ Having two functions
 Then there must exist function `h: A --> C`
 
 This function can be defined as composition of `f` and `g`:
-`f . g = x => f(g(x)``
+`f . g = x => f(g(x)`
 
 ---
 Let's try in practice.
@@ -168,11 +168,11 @@ Notes: First, this is how compose is defined in math and in other FP languages. 
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjYxNDc1MjIsMTE3NzMyNDQ5OCwxOT
-I1Mjg0NDQ2LDIwODc3MDYxNSwxNDE5MjM3MTI5LDE0MDY0MTA0
-NzcsMTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMTQwNzc1Niw5Mz
-M5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgw
-ODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC
-05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5
-NzAwXX0=
+eyJoaXN0b3J5IjpbOTQ4MTYyLDExNzczMjQ0OTgsMTkyNTI4ND
+Q0NiwyMDg3NzA2MTUsMTQxOTIzNzEyOSwxNDA2NDEwNDc3LDE2
+Nzk5MTkxODgsMTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOTEzOT
+ExLC0xNzc2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwt
+MjI1ODYzMzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwND
+EyOTk3LC0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMF19
+
 -->
