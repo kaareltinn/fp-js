@@ -4,6 +4,8 @@
 ### What is an abstraction?
 
 #### :TODO:
+Abstractions are for human, not for a computer
+
 ---
 Task 1: For every number in a list increase it by its own value
 ```javascript
@@ -168,11 +170,11 @@ Notes: First, this is how compose is defined in math and in other FP languages. 
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Njg1MjQzLDE5MjUyODQ0NDYsMjA4Nz
-cwNjE1LDE0MTkyMzcxMjksMTQwNjQxMDQ3NywxNjc5OTE5MTg4
-LDE2MjI0OTQ5NzMsODIxNDA3NzU2LDkzMzkxMzkxMSwtMTc3Nj
-gzMDgwNSwtMjA3MzIyNjk3Niw5ODAyODA4NzQsLTIyNTg2MzM3
-NSwyMDQ4ODk4MjE1LDE4MjI2NjA4MzUsLTk1MDQxMjk5NywtMT
-YwMjcxOTM4LDg2OTY0MDMxMCwtOTIwODk3MDAsLTEwODIwMjkw
-MDFdfQ==
+eyJoaXN0b3J5IjpbMTE3NzMyNDQ5OCwxOTI1Mjg0NDQ2LDIwOD
+c3MDYxNSwxNDE5MjM3MTI5LDE0MDY0MTA0NzcsMTY3OTkxOTE4
+OCwxNjIyNDk0OTczLDgyMTQwNzc1Niw5MzM5MTM5MTEsLTE3Nz
+Y4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0LC0yMjU4NjMz
+NzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NTA0MTI5OTcsLT
+E2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAwLC0xMDgyMDI5
+MDAxXX0=
 -->
