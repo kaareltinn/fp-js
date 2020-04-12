@@ -11,7 +11,7 @@ const list1 = [56, -122, 12, -5, 212, 34, -25]
 
 let list2 = []
 for (let i in list1) {
-	list2[i] = list1[i] + list[i]
+	list2[i] = list1[i] + list1[i]
 }
 console.log(list2) // [ 112, -244, 24, -10, 424, 68, -50 ]
 ```
@@ -168,11 +168,11 @@ Notes: First, this is how compose is defined in math and in other FP languages. 
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4MTYyLDExNzczMjQ0OTgsMTkyNTI4ND
-Q0NiwyMDg3NzA2MTUsMTQxOTIzNzEyOSwxNDA2NDEwNDc3LDE2
-Nzk5MTkxODgsMTYyMjQ5NDk3Myw4MjE0MDc3NTYsOTMzOTEzOT
-ExLC0xNzc2ODMwODA1LC0yMDczMjI2OTc2LDk4MDI4MDg3NCwt
-MjI1ODYzMzc1LDIwNDg4OTgyMTUsMTgyMjY2MDgzNSwtOTUwND
-EyOTk3LC0xNjAyNzE5MzgsODY5NjQwMzEwLC05MjA4OTcwMF19
-
+eyJoaXN0b3J5IjpbLTYzMzQ1MjM2Nyw5NDgxNjIsMTE3NzMyND
+Q5OCwxOTI1Mjg0NDQ2LDIwODc3MDYxNSwxNDE5MjM3MTI5LDE0
+MDY0MTA0NzcsMTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMTQwNz
+c1Niw5MzM5MTM5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYs
+OTgwMjgwODc0LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNj
+YwODM1LC05NTA0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTBd
+fQ==
 -->
