@@ -33,7 +33,7 @@ console.log(list3) // [ 112, 244, 24, 10, 424, 68, 50 ]
 Generalization: find similarities and hide them behind the abstraction
 
 ```javascript
-const iterateOverList = (lst) => {
+const iterateOverList = (lst, fn) => {
 	result = []
 	for (let i in lst) {
 		result[i] = fn(lst[i])
@@ -168,11 +168,11 @@ Notes: First, this is how compose is defined in math and in other FP languages. 
 * Improves readability (no nesting function calls)
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDI3MDU4NywxMTc3MzI0NDk4LDE5Mj
-UyODQ0NDYsMjA4NzcwNjE1LDE0MTkyMzcxMjksMTQwNjQxMDQ3
-NywxNjc5OTE5MTg4LDE2MjI0OTQ5NzMsODIxNDA3NzU2LDkzMz
-kxMzkxMSwtMTc3NjgzMDgwNSwtMjA3MzIyNjk3Niw5ODAyODA4
-NzQsLTIyNTg2MzM3NSwyMDQ4ODk4MjE1LDE4MjI2NjA4MzUsLT
-k1MDQxMjk5NywtMTYwMjcxOTM4LDg2OTY0MDMxMCwtOTIwODk3
-MDBdfQ==
+eyJoaXN0b3J5IjpbMzA4MDUwNTUsMTE3NzMyNDQ5OCwxOTI1Mj
+g0NDQ2LDIwODc3MDYxNSwxNDE5MjM3MTI5LDE0MDY0MTA0Nzcs
+MTY3OTkxOTE4OCwxNjIyNDk0OTczLDgyMTQwNzc1Niw5MzM5MT
+M5MTEsLTE3NzY4MzA4MDUsLTIwNzMyMjY5NzYsOTgwMjgwODc0
+LC0yMjU4NjMzNzUsMjA0ODg5ODIxNSwxODIyNjYwODM1LC05NT
+A0MTI5OTcsLTE2MDI3MTkzOCw4Njk2NDAzMTAsLTkyMDg5NzAw
+XX0=
 -->
