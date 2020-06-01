@@ -142,7 +142,8 @@ power(2, 4) // 16 -> Yay!
 ---
 ### Homework #1
 
+Mäng vana tuttava Maarduga, kellel on eelmisest hooajast kõrgliiga kogemus all tuleb kindlasti põnev ja pingeline. Mäletan 2-3 aastast t
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY4NjE1NTksMTM5ODQ2NzEyMSwtMT
-IwNDU0MDU2NCwxOTAxMTU3NjIxXX0=
+eyJoaXN0b3J5IjpbLTk4OTI3NjMwMCwtMTgzNjg2MTU1OSwxMz
+k4NDY3MTIxLC0xMjA0NTQwNTY0LDE5MDExNTc2MjFdfQ==
 -->
