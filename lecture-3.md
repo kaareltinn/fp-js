@@ -1,4 +1,11 @@
 ### Data: Structure and control flow
+
+* Immutability are helps to make state changes clear
+* `const` keyword explanation
+* In FP you want to avoid using assignments
+* Reducers as main fnuctions to changing state
+
+
 ___
 #### Agenda
 * Immutability
