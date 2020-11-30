@@ -74,5 +74,5 @@ console.log({ ...obj, bar: 'BAR' } // { foo: 'foo', bar: 'BAR' }
 
 ---
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2OTAwNTg4XX0=
+eyJoaXN0b3J5IjpbLTgwODkyNjA3LDYxNjkwMDU4OF19
 -->
