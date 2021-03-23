@@ -2,7 +2,7 @@
 
 > **“Sometimes, the elegant implementation is just a function. Not a method. Not a class. Not a framework. Just a function.”**  ~John Carmack (Id Software, Oculus VR)
 ---
-### What is a function?
+### What is a function???
 
 Simple definition: block of code which can be called multiple times.
 ```javascript
@@ -144,6 +144,7 @@ power(2, 4) // 16 -> Yay!
 
 Mäng vana tuttava Maarduga, kellel on eelmisest hooajast kõrgliiga kogemus all, tuleb kindlasti põnev ja pingeline. Mäletan 3 aasta tagust mängu Elvas, kus suutsime viimase minuti väravaga Maardu alistada 4-3. Loodan, et suudame seekordki võidu koju jätta ja hea emotsiooniga hooaega jätkata.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MjY2ODczOSwtMTgzNjg2MTU1OSwxMz
-k4NDY3MTIxLC0xMjA0NTQwNTY0LDE5MDExNTc2MjFdfQ==
+eyJoaXN0b3J5IjpbNjgyNDA4NjExLDE5NzI2Njg3MzksLTE4Mz
+Y4NjE1NTksMTM5ODQ2NzEyMSwtMTIwNDU0MDU2NCwxOTAxMTU3
+NjIxXX0=
 -->
